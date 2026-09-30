@@ -1,10 +1,4 @@
-export type Task = {
-  id: string;
-  userId: string;
-  title: string;
-  summary: string;
-  dueDate: string;
-};
+import { Task } from './tasks/task/task.model';
 
 export const DUMMY_TASKS: Task[] = [
   {

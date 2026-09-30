@@ -1,8 +1,4 @@
-export type User = {
-  id: string;
-  name: string;
-  avatar: string;
-};
+import type { User } from './user/user.model';
 
 export const DUMMY_USERS: User[] = [
   {
