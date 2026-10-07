@@ -24,6 +24,10 @@ h2 {
   color: #d0c2e1;
 }
 
+p {
+  margin-top: 15px;
+}
+
 label {
   display: block;
   font-weight: bold;
